@@ -1,0 +1,17 @@
+<head>
+  <title>building-reusable-controls</title>
+</head>
+
+<body>
+  {{> loginForm}}
+</body>
+
+<template name="loginForm">
+  {{#LoginForm}}
+    <form>
+      <input type="text" name="email" placeholder="email"/> <br>
+      <input type="password" name="password" placeholder="password"/><br>
+      <input type="submit" value="Login"/>
+    </form>
+  {{/LoginForm}}
+</template>

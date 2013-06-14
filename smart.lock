@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "controls": {}
+    },
+    "packages": {
+      "controls": {
+        "git": "https://github.com/EventedMind/meteor-controls.git",
+        "tag": "v0.0.4",
+        "commit": "ae2c65bc1d5213eae90255dc6264b536da1a81d4"
+      }
+    }
+  }
+}
